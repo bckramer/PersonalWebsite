@@ -56,8 +56,8 @@ div.container {
 }
 
 .middle-links {
-    position: absolute;
-    top: 72%;
+    position: relative;
+    top: 82%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0 auto;
@@ -109,5 +109,7 @@ p.paragraph {
     font-size: 20px;
     font-family: Helvetica;
 }
+
+
 
 
