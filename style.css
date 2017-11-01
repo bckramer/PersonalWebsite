@@ -29,10 +29,10 @@ div.header {
 }
 
 div.container {
-    padding: 10px;
     color: black;
     font-family: "Helvetica";
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #777777;
 }
 
 #picture {
@@ -84,14 +84,30 @@ td {
 }
 
 a.btn {
-    background: transparent;
+    background-color: transparent;
     text-transform: uppercase;
     border-color: white;
     color: white;
 }
 
+a.btn-default {
+    background-color: transparent;
+    border-color: white;
+}
+
+a.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+    background-color: #333333;
+    border-color: white;
+}
+
 #name {
     position: absolute;
+}
+
+
+p.paragraph {
+    font-size: 20px;
+    font-family: Helvetica;
 }
 
 

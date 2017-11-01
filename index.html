@@ -11,10 +11,19 @@
 </head>
 <body>
 <header class="header" role="banner">
-    <a><img src="iastate.png" style="width:100px; height:70px;"></a>
+    <div class="row">
+        <div class="col col-lg-11">
+            <img src="iastate.png" style="width:100px; height:70px;">
+        </div>
+        <div class="col col-auto">
+            <a href="https://www.linkedin.com/in/benjamin-kramer-579701148/"><img src="linkedin.png" class="pull-right img-reponsive"></a>
+            &nbsp
+            <a href="https://github.com/bckramer"><img src="github.png" class="pull-right img-reponsive"></a>
+        </div>
+    </div>
 </header>
 <div id="picture">
-    <img src="background.jpg" width="100%" style="height:700px">
+    <img src="background.jpg" class="img-fluid" width="100%" style="height:700px">
     <div class="middle">
         <div>Benjamin Kramer</div>
         <div style="font-size: 32px">Software Engineer</div>
@@ -29,39 +38,34 @@
         <a class="btn btn-default" role="button" href="#persProj">Personal Projects</a>
     </div>
 </div>
-<table width="95%" align="center">
+<table align="center">
     <tr>
-        <td style="border-spacing: 10px">
-            <div class="container" id="me" style="background: #777777;" width="100" height="200px">
+        <td>
+            <div class="container-fluid" width="100%" id="me" style="background: #777777;">
                 <table>
                     <tr>
                         <td>
                             <p align="center" style="font-size:40px"><strong>About me</strong></p>
-                            <img src="personal_picture.jpg" style="width:200px; height:350px">
+                            <img src="personal_picture.jpg" style="width: 400px; height: 550px">
                         </td>
                         <td>
-                            <p style="padding: 10px">Test change dolor sit amet, modo sumo graeci at nec. Saepe conclusionemque in qui, ea cum moderatius deterruisset, liber ceteros an pri. Pri in vitae putant dissentiet,
-                                falli iudico dissentiunt ne mel. Et esse sonet feugait mel, pri erat verear gubergren ut. Usu elit legere conclusionemque an. At mea odio deseruisse.
-                                Lorem ipsum dolor sit amet, modo sumo graeci at nec. Saepe conclusionemque in qui, ea cum moderatius deterruisset, liber ceteros an pri. Pri in vitae putant dissentiet,
-                                falli iudico dissentiunt ne mel. Et esse sonet feugait mel, pri erat verear gubergren ut. Usu elit legere conclusionemque an. At mea odio deseruisse.</p>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </td>
-        <td>
-            <div class="container" id="persProj" style="background: #8c8c8c" height="200px">
-                <table>
-                    <tr>
-                        <td>
-                            <p align="center" style="font-size:40px"><strong>Personal Projects</strong></p>
-                            <img src="personal_picture.jpg" style="width:200px; height:140px">
-                        </td>
-                        <td>
-                            <p style="padding: 10px">Lorem ipsum dolor sit amet, modo sumo graeci at nec. Saepe conclusionemque in qui, ea cum moderatius deterruisset, liber ceteros an pri. Pri in vitae putant dissentiet,
-                                falli iudico dissentiunt ne mel. Et esse sonet feugait mel, pri erat verear gubergren ut. Usu elit legere conclusionemque an. At mea odio deseruisse.
-                                Lorem ipsum dolor sit amet, modo sumo graeci at nec. Saepe conclusionemque in qui, ea cum moderatius deterruisset, liber ceteros an pri. Pri in vitae putant dissentiet,
-                                falli iudico dissentiunt ne mel. Et esse sonet feugait mel, pri erat verear gubergren ut. Usu elit legere conclusionemque an. At mea odio deseruisse.
+                            <p class="paragraph" style="padding: 10px">Hello! My name is Benjamin Kramer and I am a software engineering student and developer at Iowa State University. My passion for technology began
+                                                    about the time I first played Star Fox on the Nintendo 64. From then on, I became fascinated with how games worked, and eventually how software as a whole worked. Once I dug my teeth
+                                                    into coding in high school, I realized how expansive and powerful software was. From then on, it was clear I had to pursue a career in the field.
+                            </p>
+                            <p class="paragraph" style="padding: 10px">To get a head start on this pursuit, I started playing around with C# and the Unity game engine in high school. While the best I could come up with at the time was a text adventure game and a
+                                                    3D marble rolling game, it gave me a great foundation for coding. Basic concepts were easier to relearn when I took my first coding class my senior year of high school. Here I picked up skills
+                                                    in Python. The assignments we were given were my first experiences with difficult coding challenges. By the time I was in college, all my basic skills were solidified, giving me a chance to sharpen them
+                                                    even further in my introductory courses.
+                            </p>
+                            <p class="paragraph" style="padding: 10px">By the spring of my freshman year, I was fortunate enough to be hired as a student developer at Iowa State.
+                                                    Over the summer, this meant forty hour work weeks of constant challenges, which made for great advancement in my coding ability.
+                            </p>
+                            <p class="paragraph" style="padding: 10px">More recently, my passion led me to my first hackathon, hosted at Iowa State University. Here I developed my first neural network with a team of two other students.
+                                                    Since then, I've found myself thinking about artificial intelligence and its uses more frequently. In the future, I'd love to work on more AI focused projects.
+                            </p>
+                            <p class="paragraph" style="padding: 10px">For more information on anything mentioned above, check the other sections of my website below, or visit my GitHub and LinkedIn profiles. If you like what you see, consider
+                                                    contacting me! For the sake of privacy, contact information can only be found on the provided resume with my application.
                             </p>
                         </td>
                     </tr>
@@ -69,10 +73,41 @@
             </div>
         </td>
     </tr>
-    </br>
+
     <tr>
-        <td style="border-spacing: 10px">
-            <div class="container" id="profExp" style="background: #8c8c8c;" width="100" height="200px">
+        <td>
+            <div class="container-fluid" id="persProj" style="background: #8c8c8c" height="200px">
+                <table>
+                    <tr>
+                        <td>
+                            <p class="paragraph" style="padding: 10px"><strong>Myrtl, the Genetic AI</strong></p>
+                            <p class="paragraph" style="padding: 10px">My favorite personal project is one a team of two students and I did for the 2017 Fall Hackathon at Iowa State. We built a simple game, a genetic algorithm and a
+                                                    neural network in Java in about thirty hours named Myrtl. The program would play the game, at first trying random actions, and then through genetic mutations and neural network modifications, learn how to play
+                                                    the game. It was my first foray into the world of AI and one of the most challenging projects I've ever done. The team and I learned a ton about neural networks, machine learning and AI.
+                            </p>
+                            <p class="paragraph" style="padding: 10px">I was in charge of the construction of the neural network, which was built by scratch in Java. No libraries were use, which meant I had to have a concrete grasp of the network
+                                                    and what requirements it had to have if I was going to be successful. There were many times in which it was very difficult to conceptualize and visualize the network, but through perseverance I
+                                                    came out successful. I also lent my hand in debugging and tweaking the genetic algorithm, which take several network and selects the best traits to be passed onto a new generation.
+                            </p>
+                            <p class="paragraph" href="https://github.com/bckramer/MakingTomorrowsLeadersToday" style="padding: 10px"><a href="https://github.com/bckramer/MakingTomorrowsLeadersToday" style="color: blue">Link to the GitHub repository</a></p>
+                            <p class="paragraph" style="padding: 10px"><strong>My Portfolio Website</strong></p>
+                            <p class="paragraph" style="padding: 10px">The website you're on! This website was built by scratch by me, with a little help from Bootstrap. Using the front-end development skills learned from working at ISU, this is my first
+                                                    website made from the ground up. My HTML and CSS skills could always get better, but I consider this a good example of my front-end capabilities. If a site ever needs to be put up on the fly, or a page could use
+                                                    a look and feel touch up, I know I can hold my own in accomplishing that task.</p>
+                            <p class="paragraph" href="https://github.com/bckramer/MakingTomorrowsLeadersToday" style="padding: 10px"><a href="https://github.com/bckramer/PortfolioWebsite" style="color: blue">Link to the GitHub repository</a></p>
+
+                        <td>
+                            <p align="center" style="font-size:40px"><strong>Personal Projects</strong></p>
+                            <img src="squirrel.png" style="width:400px; height:400px">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+    </tr>
+    <tr style="border-spacing: 10px">
+        <td>
+            <div class="container-fluid" id="profExp" class="img-fluid" style="background: #777777;" width="100" height="200px">
                 <table>
                     <tr>
                         <td>
@@ -93,12 +128,14 @@
                 </table>
             </div>
         </td>
+    </tr>
+    <tr>
         <td>
-            <div class="container" style="background: #777777" height="200px">
+            <div class="container-fluid" style="background: #8c8c8c" height="200px">
                 <table>
                     <tr>
                         <td>
-                            <p align="center" style="font-size:40px" id="development"><strong>Front End Development</strong></p>
+                            <p align="center" class="img-fluid" style="font-size:40px" id="development"><strong>Front End Development</strong></p>
                             <img src="personal_picture.jpg" style="width:200px; height:400px">
                         </td>
                         <td>
@@ -118,7 +155,6 @@
         </td>
     </tr>
 </table>
-</div>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
