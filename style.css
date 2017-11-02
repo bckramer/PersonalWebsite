@@ -28,7 +28,7 @@ div.header {
     font-size: 40px;
 }
 
-div.container {
+div.container-fluid {
     color: black;
     font-family: "Helvetica";
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -106,6 +106,12 @@ a.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.activ
 p.paragraph {
     font-size: 20px;
     font-family: Helvetica;
+}
+
+div.title {
+    font-size: 40px;
+    font-family: Helvetica;
+    align: center;
 }
 
 
