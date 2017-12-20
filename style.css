@@ -30,8 +30,7 @@ div.header {
 
 div.container-fluid {
     color: black;
-    font-family: "Helvetica";
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Abel';
     background: #777777;
 }
 
@@ -42,9 +41,8 @@ div.container-fluid {
     box-shadow: none;
     margin: auto;
     padding: 0;
-    font-family: "Helvetica";
+    font-family: 'Abel';
     color: black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .middle {
@@ -92,8 +90,40 @@ a.btn-default {
     border-color: white;
 }
 
+a.btn-default-japan {
+    background-color: #c1203e;
+    border-color: white;
+}
+
+a.btn-default-alaska {
+    background-color: #f2f2f2;
+    border-color: white;
+    color: black;
+}
+
+a.btn-default-utah {
+    background-color: #b6571d;
+    border-color: white;
+    color: white;
+}
+
 a.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
     background-color: #333333;
+    border-color: white;
+}
+
+a.btn-default-japan:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+    background-color: black;
+    border-color: white;
+}
+
+a.btn-default-alaska:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+    background-color: #4b525e;
+    border-color: white;
+}
+
+a.btn-default-utah:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+    background-color: #8c3313;
     border-color: white;
 }
 
@@ -104,12 +134,12 @@ a.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.activ
 
 p.paragraph {
     font-size: 20px;
-    font-family: Helvetica;
+    font-family: 'Abel';
 }
 
 div.title {
     font-size: 40px;
-    font-family: Helvetica;
+    font-family: 'Abel';
     align: center;
 }
 
