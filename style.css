@@ -78,50 +78,26 @@ td {
 a.btn {
     background-color: transparent;
     text-transform: uppercase;
-    border-color: white;
-    color: white;
-}
-
-a.btn-default {
-    background-color: transparent;
-    border-color: white;
-}
-
-a.btn-default-japan {
-    background-color: #c1203e;
-    border-color: white;
-}
-
-a.btn-default-alaska {
-    background-color: #f2f2f2;
-    border-color: white;
-    color: black;
-}
-
-a.btn-default-utah {
-    background-color: #b6571d;
-    border-color: white;
+    font-size: 24px;
+    font-family: 'Abel';
+    border-color: transparent;
     color: white;
 }
 
 a.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
     background-color: #333333;
-    border-color: white;
 }
 
 a.btn-default-japan:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
     background-color: black;
-    border-color: white;
 }
 
 a.btn-default-alaska:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
     background-color: #4b525e;
-    border-color: white;
 }
 
 a.btn-default-utah:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
     background-color: #8c3313;
-    border-color: white;
 }
 
 #name {
