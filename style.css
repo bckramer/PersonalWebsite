@@ -84,6 +84,26 @@ a.btn {
     color: white;
 }
 
+/*a.btn-default {*/
+    /*background-color: transparent;*/
+    /*border-color: transparent;*/
+
+/*}*/
+
+a.btn-default-japan {
+    background-color: #c1203e;
+}
+
+a.btn-default-alaska {
+    background-color: gray;
+}
+
+/*a.btn-default-utah {*/
+    /*background-color: #b6571d;*/
+    /*border-color: white;*/
+    /*color: white;*/
+/*}*/
+
 a.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
     background-color: #333333;
 }
