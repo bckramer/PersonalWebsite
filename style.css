@@ -7,6 +7,7 @@ header {
     padding: 10px;
     background-color: #333333;
     color: #e7e7e7;
+    /*position: fixed;*/
 }
 
 a {
@@ -134,6 +135,40 @@ div.title {
     font-size: 40px;
     font-family: 'Abel';
     align: center;
+}
+
+/*Based on example from https://www.w3schools.com/css/css_navbar.asp*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Abel';
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
 }
 
 
