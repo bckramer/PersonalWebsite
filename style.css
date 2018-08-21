@@ -1,13 +1,14 @@
 body {
     margin: 0;
-    padding: 0;
 }
 
 header {
-    padding: 10px;
-    background-color: #333333;
+    background-color: transparent;
     color: #e7e7e7;
-    /*position: fixed;*/
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
 }
 
 a {
@@ -24,10 +25,10 @@ div.header {
     background-color: gray;
     color: white;
     padding: 10px;
-    font-size: 40px;
 }
 
 div.container-fluid {
+    position: relative;
     color: black;
     font-family: 'Abel';
     background: #777777;
@@ -36,19 +37,19 @@ div.container-fluid {
 #picture {
     position: relative;
     text-align: center;
-    padding: 0px;
-    margin: auto;
-    padding: 0;
-    font-family: 'Abel';
+    padding-left: 0px;
+    padding-right: 0px;
     color: black;
 }
 
 .middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    padding: 10px;
+    top: 28%;
+    text-align: center;
+    margin: auto;
     font-size: 60px;
+    border: 3px solid #73AD21;
 }
 
 .middle-links {
@@ -144,7 +145,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 li {
@@ -157,19 +162,29 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 100%;
     font-family: 'Abel';
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
+
 }
 
 .active {
     background-color: #4CAF50;
     color: white;
 }
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 50px;
+}
+
 
 
 
