@@ -1,4 +1,5 @@
 var ul = document.createElement("UL");
+ul.setAttribute("id", "ul");
 
 createLiElement("About Me", "#picture", ul);
 createLiElement("Significant Projects", "/SignificantProjects.html", ul);
@@ -10,6 +11,11 @@ createLiWithImage("images/linkedin.png", "https://www.linkedin.com/in/benjamin-k
 createLiWithImage("images/github.png", "https://github.com/bckramer", ul);
 
 document.body.appendChild(ul);
+document.getElementById("picture").style.marginTop = ul.clientHeight.toString() + "px";
+
+window.onresize = function(event) {
+    document.getElementById("picture").style.marginTop = ul.clientHeight.toString() + "px";
+}
 
 function createLiElement(title, href, ul) {
     let li = document.createElement("LI");
