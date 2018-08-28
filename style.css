@@ -1,13 +1,3 @@
-a {
-    font-family: Helvetica;
-    font-size: 20px;
-}
-
-div.card {
-    width: 250px;
-    text-align: center;
-}
-
 div.container-fluid {
     position: relative;
     color: black;
@@ -57,15 +47,6 @@ td {
     padding-right: .5em;
 }
 
-a.btn {
-    background-color: transparent;
-    text-transform: uppercase;
-    font-size: 24px;
-    font-family: 'Abel';
-    border-color: transparent;
-    color: white;
-}
-
 a.btn-default-japan {
     background-color: #c1203e;
 }
@@ -96,12 +77,12 @@ a.btn-default-utah:hover, .btn-default:focus, .btn-default:active, .btn-default.
 
 
 p.paragraph {
-    font-size: 20px;
+    font-size: 1em;
     font-family: 'Abel';
 }
 
 div.title {
-    font-size: 40px;
+    font-size: 2em;
     font-family: 'Abel';
     align: center;
 }
@@ -110,14 +91,12 @@ div.title {
 
 ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
     background: rgba(0, 0, 0, .5);
     position: fixed;
-    top: 0;
     width: 100%;
-    height: auto;
+    top: 0;
 }
 
 li {
@@ -130,24 +109,24 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 110%;
     font-family: 'Abel';
     white-space: nowrap;
+    height: auto;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
     text-decoration: none;
+    color: red;
 }
 
 li a:link {
     color: white;
 }
 
-.active {
-    background-color: #4CAF50;
-    color: white;
+li img.headerPictures {
+    height: 20px;
 }
 
 .center {
@@ -157,3 +136,14 @@ li a:link {
     transform: translate(-50%, -50%);
     padding-top: 50px;
 }
+
+@media only screen and (max-width: 400px) {
+    li a {
+        font-size: 50%;
+    }
+
+    li img.headerPictures {
+        height: 10px;
+    }
+}
+
