@@ -15,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
@@ -43,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+            <state relative-caret-position="918">
+              <caret line="136" column="18" lean-forward="false" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -358,7 +358,7 @@
       <workItem from="1535399430252" duration="423000" />
       <workItem from="1535405013268" duration="6749000" />
       <workItem from="1535420199354" duration="507000" />
-      <workItem from="1535488906886" duration="3084000" />
+      <workItem from="1535488906886" duration="3319000" />
     </task>
     <task id="LOCAL-00001" summary="Started writing and made look and feel changes">
       <created>1509514633522</created>
@@ -514,11 +514,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535491948815</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Changed onhover text color from red to white">
+      <created>1535492008877</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1535492008877</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64897000" />
+    <option name="totallyTimeSpent" value="65132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2450" y="0" width="1404" height="2074" extended-state="0" />
@@ -579,7 +586,8 @@
     <MESSAGE value="Made some more changes to make the page more dynamic. This includes how far the color change stretches on onhover for the links and how big the main text. This makes the mobile experience far better." />
     <MESSAGE value="Added @media tags in style.css to change the size of elements in the header.&#10;Removed the top margin.&#10;Deleted some unnecessary styles, code etc.&#10;Removed the HACKISU picture from the project page." />
     <MESSAGE value="Fixed issue where some mobile devices were cramped on the AboutMe page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed issue where some mobile devices were cramped on the AboutMe page" />
+    <MESSAGE value="Changed onhover text color from red to white" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed onhover text color from red to white" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1079,22 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -1108,6 +1100,22 @@
             <element signature="n#style#0;n#p#3;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#4;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="136" column="18" lean-forward="false" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -132,13 +132,15 @@ li img.headerPictures {
     padding-top: 50px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     div.center {
         padding-top: 80px;
     }
 
     li a {
-        font-size: 50%;
+        height: 30px;
+        padding-top: 10px;
+        font-size: 60%;
     }
 
     li img.headerPictures {
