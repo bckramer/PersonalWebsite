@@ -2,7 +2,7 @@ div.container-fluid {
     position: relative;
     color: black;
     font-family: 'Abel';
-    background: #777777;
+    background: #FFFFFF;
 }
 
 #picture {
@@ -15,7 +15,6 @@ div.container-fluid {
 
 .middle {
     position: relative;
-    padding: 10px;
     top: 28%;
     text-align: center;
     margin: auto;
@@ -28,10 +27,6 @@ div.container-fluid {
     top: 82%;
     transform: translate(-50%, -50%);
     text-align: center;
-}
-
-container {
-    padding: 10px;
 }
 
 body {
@@ -137,7 +132,11 @@ li img.headerPictures {
     padding-top: 50px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
+    div.center {
+        padding-top: 80px;
+    }
+
     li a {
         font-size: 50%;
     }
