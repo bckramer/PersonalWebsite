@@ -113,7 +113,7 @@ li a {
 li a:hover {
     background-color: #111;
     text-decoration: none;
-    color: red;
+    color: blue;
 }
 
 li a:link {
