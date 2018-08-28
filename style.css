@@ -113,7 +113,7 @@ li a {
 li a:hover {
     background-color: #111;
     text-decoration: none;
-    color: blue;
+    color: white;
 }
 
 li a:link {
@@ -140,7 +140,7 @@ li img.headerPictures {
     li a {
         height: 30px;
         padding-top: 10px;
-        font-size: 70%;
+        font-size: 60%;
     }
 
     li img.headerPictures {
