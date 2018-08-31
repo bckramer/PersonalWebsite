@@ -3,6 +3,7 @@ div.container-fluid {
     color: black;
     font-family: 'Abel';
     background: #F2F2F2;
+    height: 100%;
 }
 
 #picture {
