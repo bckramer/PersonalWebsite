@@ -11,6 +11,7 @@ div.container-fluid {
     text-align: center;
     padding-left: 0px;
     padding-right: 0px;
+    height: 300px;
     color: black;
 }
 
@@ -150,3 +151,51 @@ li img.headerPictures {
     }
 }
 
+.img-rounded {
+    border-radius: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+
+/* Taken from: https://codepen.io/SteveJRobertson/pen/POdvgz */
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+/* Based on: https://www.w3schools.com/css/css_align.asp */
+
+.center-align {
+    margin: auto;
+    padding: 10px;
+}
+
+/* Taken from https://www.w3schools.com/howto/howto_js_collapsible.asp */
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.collapsible-content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}

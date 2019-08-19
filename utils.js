@@ -3,9 +3,8 @@ ul.setAttribute("id", "ul");
 
 createLiElement("About Me", "/index", ul);
 createLiElement("Significant Projects", "/SignificantProjects.html", ul);
-createLiElement("Professional Experience", "/ProfessionalExperience.html", ul);
-createLiElement("Skills", "/CodingSkills.html", ul);
 createLiElement("Game Development", "/GameDevelopment.html", ul);
+createLiElement("Professional Experience", "/ProfessionalExperience.html", ul);
 createLiWithImage("images/linkedin.png", "https://www.linkedin.com/in/benjamin-kramer-579701148/", ul);
 createLiWithImage("images/github.png", "https://github.com/bckramer", ul);
 
@@ -52,3 +51,5 @@ function createLiWithImage(src, href, ul) {
     li.appendChild(a);
     ul.appendChild(li);
 }
+
+
