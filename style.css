@@ -132,13 +132,9 @@ li img.headerPictures {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding-top: 50px;
 }
 
 @media only screen and (max-width: 600px) {
-    div.center {
-        padding-top: 80px;
-    }
 
     li a {
         height: 30px;
@@ -155,6 +151,21 @@ li img.headerPictures {
     border-radius: 50%;
     margin: auto;
     padding: 10px;
+}
+
+@media screen and (max-width: 450px) {
+    .img-rounded {
+        height: 100px;
+        width: 100px;
+    }
+
+    div.center {
+        font-size: 20%;
+    }
+
+    #picture {
+        height: auto;
+    }
 }
 
 
