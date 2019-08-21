@@ -161,11 +161,17 @@ li img.headerPictures {
 
     div.center {
         font-size: 20%;
+        color: white;
     }
 
     #picture {
         height: auto;
     }
+
+    div.card {
+        font-size: 70%;
+    }
+
 }
 
 
