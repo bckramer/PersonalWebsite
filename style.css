@@ -160,6 +160,7 @@ li img.headerPictures {
     }
 
     div.center {
+        padding-top: 25px;
         font-size: 20%;
         color: white;
     }
