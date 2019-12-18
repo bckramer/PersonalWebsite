@@ -5,6 +5,7 @@ createLiElement("About Me", "/index", ul);
 createLiElement("Significant Projects", "/SignificantProjects.html", ul);
 createLiElement("Game Development", "/GameDevelopment.html", ul);
 createLiElement("Professional Experience", "/ProfessionalExperience.html", ul);
+createLiElement("Gen Ed Reflection", "/GenEds.html", ul);
 createLiWithImage("images/github.png", "https://github.com/bckramer", ul);
 createLiWithImage("images/youtube.png", "https://www.youtube.com/user/bckramer97", ul);
 createLiWithImage("images/linkedin.png", "https://www.linkedin.com/in/benjamin-kramer-579701148/", ul);
