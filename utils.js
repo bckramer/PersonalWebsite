@@ -47,7 +47,7 @@ function createLiWithImage(src, href, ul) {
     let img = document.createElement("img");
     img.className = "headerPictures";
     img.src = src;
-    a.append(img)
+    a.append(img);
     a.href = href;
     li.appendChild(a);
     ul.appendChild(li);
